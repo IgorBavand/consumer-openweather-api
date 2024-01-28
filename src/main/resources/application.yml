@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/info_cidades
+    username: root
+    password: 12345678
+
+api-config:
+  key-openweather: ee5fab72921d2ad46fde64e8f5604c4d
